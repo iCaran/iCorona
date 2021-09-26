@@ -1,0 +1,70 @@
+body{
+    margin:0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+.container{
+    color: #000;
+    height: 75vh;
+    width: 30%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding:0,20px;
+}
+.container h1{
+    color:rgb(207,241,241);
+    margin-top: 50px;
+}
+.img{
+    height: 80px;
+    width: 80px;
+    background: url("img/utpal_bhaia.png")no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    position: absolute;
+    top:0%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.container p{
+    color: white;
+    margin-top: 60px;
+    font-size: larger;
+    font-style: normal;
+}
+.btn{
+    display: inline-block;
+    background: linear-gradient(45deg,rgb(5, 5, 117),rgb(199, 104, 120));
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+}
+.btn2{
+    background: #2f8be0 no-repeat;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    width: 55%;
+    padding:7px 15px;
+    font-size: large;
+    cursor: pointer;
+    transition: 0.3s case;
+    margin-top: 50px;
+}
+.btn2:hover{
+    background: #ffce63;
+    color:black;
+}
