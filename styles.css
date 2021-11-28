@@ -176,19 +176,19 @@ li span{
     width: 180px;
     position: absolute;
     top: -50px;
-    right: -50px;
+    right: 100px;
 }
 .infoCards .two .cardtwoImg{
     width: 158px;
     position: absolute;
     top: -50px;
-    right: -50px;
+    right: 100px;
 }
 .infoCards .three .cardthreeImg{
     width: 200px;
     position: absolute;
     top: -50px;
-    right: -50px;
+    right: 50px;
 }
 
 .cardbgone{
@@ -433,89 +433,4 @@ li p{
     width: 26vw;
 }
 
-.footer{
-    padding-bottom: 40px;
-}
-
-
-
-
-
-
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.footer{ padding-bottom: 40px; }
